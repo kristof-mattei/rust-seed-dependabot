@@ -1,0 +1,42 @@
+version: 2
+updates:
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "devcontainers"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "docker-compose"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
+  - package-ecosystem: "rust-toolchain"
+    directory: "/"
+    schedule:
+      interval: "cron"
+      cronjob: "0 * * * *"
