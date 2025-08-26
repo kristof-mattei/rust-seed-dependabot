@@ -15,21 +15,21 @@ updates:
     schedule:
       interval: "cron"
       cronjob: "0 9 * * *"
-  - package-ecosystem: "docker-compose"
-    directory: "/"
-    schedule:
-      interval: "cron"
-      cronjob: "0 9 * * *"
+  #   - package-ecosystem: "docker-compose"
+  #     directory: "/"
+  #     schedule:
+  #       interval: "cron"
+  #       cronjob: "0 9 * * *"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "cron"
       cronjob: "0 9 * * *"
-  - package-ecosystem: "gitsubmodule"
-    directory: "/"
-    schedule:
-      interval: "cron"
-      cronjob: "0 9 * * *"
+  #   - package-ecosystem: "gitsubmodule"
+  #     directory: "/"
+  #     schedule:
+  #       interval: "cron"
+  #       cronjob: "0 9 * * *"
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
