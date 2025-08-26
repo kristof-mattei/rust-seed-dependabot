@@ -57,7 +57,7 @@ jobs:
           show-progress: false
 
       - name: Check if we actually made changes
-        uses: dorny/paths-filter # v3.0.0
+        uses: dorny/paths-filter@v3.0.0
         id: filter
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
